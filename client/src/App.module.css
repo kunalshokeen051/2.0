@@ -1,0 +1,84 @@
+  @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+
+.app {
+  display: flex;
+  text-align: center;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  color: #fff;
+  font-family: 'DM Serif Display', serif;
+}
+
+.sidemenu {
+  width: 240px;
+  padding: 10px;
+  background-color: #0d4278;
+}
+
+.sidemenu_button {
+  padding: 15px;
+  border: 1px solid white;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  cursor: pointer;
+  transition: ease 0.3s;
+  color: #fff;
+}
+
+.previous_queries{
+  width: 90%;
+  height: 400px;
+}
+
+.sidemenu_button:hover {
+  background-color: #1873cf;
+  transform: scale(0.95);
+}
+
+.chatbox {
+  background-color: #062852;
+  flex: 1;
+  position: relative;
+  overflow-y: scroll;
+ width: 100%; 
+}
+
+.chatbox_log {
+  padding: 10px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 20px;
+  height:fit-content;
+}
+
+.input {
+  padding: 24px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position:static;
+}
+
+.textarea::placeholder {
+color: #fff;
+}
+
+.textarea {
+  background-color:  #0d55ad;
+  width: 90%;
+  border: none;
+  padding: 12px;
+  border-radius: 5px;
+  outline: none;
+  color: #fff;
+  font-size: 1.2rem;
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+}

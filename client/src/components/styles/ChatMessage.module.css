@@ -1,0 +1,42 @@
+.messagebox {
+  padding: 12px 0;
+  display: flex;
+  width: 90%;
+  margin: 0 50px;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.avatar {
+  border-radius: 50%;
+  color: #000;
+  width: 50px;
+  height: 50px;
+  margin: 0 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.avatar img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.message {
+  word-wrap: break-word;
+  word-break: break-all;
+  text-align: justify;
+  color:  #bdc2ff;
+}
+
+.message[id=''] {
+  color: #dfdfdf;
+}
+
+.messagebox[id='gpt'] {
+  background: rgba(34, 73, 150, 0.5);
+  border-radius: 30px;
+}
+
