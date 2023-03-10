@@ -3,8 +3,8 @@ const express = require("express")
 const bodyParser = require('body-parser')
 const cors = require("cors") 
 const configuration = new Configuration({
-    organization: "org-5RwApKs0drM3cbnRFvafFDKH",
-    apiKey: "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",
+    organization: "",
+    apiKey: "",
 });
 const openai = new OpenAIApi(configuration);
 const app = express()
